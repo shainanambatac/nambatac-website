@@ -33,22 +33,27 @@ a {
     color: #252b1b;
 }
 
-
 /* HEADER */
 
 #top img {
     width: 150px;
-    height: auto;
+    height: 50px;
     margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    position: sticky;
 }
 
 #top {
     background-color: #f6c4d0;
     padding: 40px 20px;
-    position: sticky;
-    top: 0;
     width: 100%;
     z-index: 1000;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    text-align: center;
 }
 
 /* NAVIGATION */
