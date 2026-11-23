@@ -11,6 +11,18 @@ body {
     line-height: 1.6;
 }
 
+#top h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+#top p {
+    background-color: #f9d1d9;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
 h1, h2, h3 {
     color: #838f58;
     font-family: Georgia, serif;
@@ -31,22 +43,13 @@ a {
 }
 
 #top {
-    text-align: center;
+    background-color: #f6c4d0;
     padding: 40px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
-
-#top h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-}
-
-#top p {
-    background-color: #f9d1d9;
-    padding: 15px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-}
-
 
 /* NAVIGATION */
 nav {
